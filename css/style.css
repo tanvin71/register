@@ -1,0 +1,142 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+header {
+	background: #343A40;
+
+}
+.header-area {
+	width: 45%;
+	margin: auto;
+	display: flex;
+	justify-content: space-around;
+	padding: 20px 0;
+}
+.li-1 {
+	width: 40%;
+	margin-left: 50px;
+}
+.li-1 ul {
+	display: flex;
+	justify-content: space-between;
+}
+.img {
+	display: flex;
+}
+.li-2 {
+	width: 40%;
+}
+.li-2 ul{
+	display: flex;
+	justify-content: space-between;
+	padding-left: 10px;
+}
+
+.img p {
+	font-size: 18px;
+	color: #455159;
+
+}
+img {
+	width: 20%;
+	margin-right: 10px;
+	border-radius: 10px;
+}
+ul {
+	list-style: none;
+}
+a {
+	text-decoration: none;
+	text-transform: uppercase;
+	color: #ffffff;
+	font-size: 12px;
+	margin-right: 25px;
+}
+p {
+	color: #020202;
+}
+section {
+	background: linear-gradient( #4C4C4E, #4D4D4E, #3C3E42,#393A3C);
+
+}
+.main-content {
+	width: 90%;
+	margin: auto;
+	display: flex;
+	justify-content: space-between;
+	padding: 100px 0;
+}
+.let {
+	width: 50%;
+	padding: 20px 0;
+
+}
+.let h1 {
+	color: #ffffff;
+	text-transform: uppercase;
+	font-size: 30px;
+	margin-bottom: 5px;
+	
+}
+.let p {
+	color: #ffffff;
+	margin-bottom: 5px;
+	font-family: arial,sens-serif;
+	font-size: 12px;
+}
+
+.let label {
+	color: #ffffff;
+	margin-bottom: 5px;
+	font-family: arial,sens-serif;
+	font-size: 14px;
+}
+.let input[type="submit"] {
+	margin-top: 10px;
+	background: #6DBD6D;
+	border: 1px solid #6DBD6D;
+	border-radius: 20px;
+	color: #FFFFFF;
+	padding: 8px 25px;
+	font-size: 12px;
+	text-align: center;
+
+}
+
+.left {
+	width: 40%;
+	background: #6DBD6D;
+	border-radius: 5px;
+	padding: 20px 0;
+}
+.form {
+	width: 100%;
+	margin: auto;
+	padding: 25px 0;
+}
+.form input {
+	padding: 10px 5px;
+	margin: 5px 50px;;
+	width: 80%;
+	 border: 1px solid #ffffff;
+	 font-size: 15px;
+}
+.form h1 {
+	color: #ffffff;
+	margin-bottom: 5px;
+	text-align: center;
+}
+.form p {
+	color: #ffffff;
+	margin-bottom: 9px;
+	text-align: center;
+}
+.form input[type="submit"] {
+	background: #529252;
+    border: 1px solid #457D45;
+	text-align: center;
+	color: #ffffff; 
+	font-size: 15px;
+	width: 83%;
+}
